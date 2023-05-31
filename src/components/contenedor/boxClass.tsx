@@ -17,10 +17,9 @@ function BoxClass (props: BoxClassProps){
             <Image 
             src={require(`../../images/imagen-${props.imagen}.${props.type}`)}
             alt="imagen"
-            width={500}
-            height={500}
+            className="box-class-image"
             />
-            <div className="contenedor-texto">
+            <div className="contenedor-texto-aulas">
                 <h2 className="title-box-aula">{props.title}</h2>
                 <p className="description-box-aula">{props.description}</p>
                 <Button name="Ingresar" />
