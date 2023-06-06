@@ -1,0 +1,24 @@
+.contenedor-visitas,
+.contenedor-redes,
+.contenedor-colabora{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor-visitas h1, 
+.contenedor-redes h1, 
+.contenedor-colabora h1{
+    font-size: 1.3em;
+    color: antiquewhite;
+}
+
+.contenedor-visitas img, 
+.contenedor-redes img, 
+.contenedor-colabora img{
+    width: 200px;
+    height: 150px;
+}
