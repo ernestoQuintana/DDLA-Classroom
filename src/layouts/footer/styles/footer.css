@@ -14,11 +14,15 @@
 }
 
 .footer-background{
-    background-image: url('../../../images/Background-Footer-Tiamat-1.png');
+    background-image: 
+    url('../../../images/Background-Footer-Tiamat-1.png');
+    /* --opacidad-negro: 0.5; */
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     padding-top: 4em;
     justify-content: center;
+    flex-direction: column;
+    position: relative;
 }
