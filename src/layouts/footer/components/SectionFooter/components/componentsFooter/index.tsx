@@ -14,7 +14,7 @@ export const ComponentsFooter = (props:ComponentsProps) => {
         <div className={`contenedor-${props.name}`}>
             <h1>{props.title}</h1>
             <Image
-            src={require(`../../../../../../images/contenedor-${props.imageName}`)}
+            src={require(`../../../../../../assets/images/contenedor-${props.imageName}`)}
             alt='imagen de visitas'
             />
             {/* </Image> */}

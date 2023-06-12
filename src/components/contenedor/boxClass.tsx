@@ -15,7 +15,7 @@ function BoxClass (props: BoxClassProps){
     return (
         <div className="box-class-contenedor">
             <Image 
-            src={require(`../../images/imagen-${props.imagen}.${props.type}`)}
+            src={require(`../../assets/images/imagen-${props.imagen}.${props.type}`)}
             alt="imagen"
             className="box-class-image"
             />
