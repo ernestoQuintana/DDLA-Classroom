@@ -5,7 +5,7 @@ interface VideoProps {
     userAdmin?: string;
   }
 
-const VideoConference = (props:VideoProps) => {
+const VideoCall = (props:VideoProps) => {
     return (
         <div>
             <h2>{props.name}</h2>
@@ -14,4 +14,4 @@ const VideoConference = (props:VideoProps) => {
     )
 }
 
-export default VideoConference;
+export default VideoCall;
