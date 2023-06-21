@@ -6,8 +6,8 @@
 
 import React from 'react';
 import Jitsi from 'react-jitsi';
-
-function App() {
+import '../styles/jitsi.css'
+function VideoPage() {
   const domain = 'meet.jit.si';
   const roomName = 'my-jitsi-room';
 
@@ -16,7 +16,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="videoPage">
       <Jitsi
         domain={domain}
         roomName={roomName}
@@ -27,7 +27,7 @@ function App() {
   );
 }
 
-export default App;
+export default VideoPage;
 // const VideoPage = () => {
 //   return (
 //     <div>
